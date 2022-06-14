@@ -28,8 +28,8 @@ func _ready() -> void:
 	root = create_item()
 	add_constant_override("Scroll Speed", 24)
 	
-const PASSED: Color = Color(0.34375, 1, 0.34375)
-const FAILED: Color = Color(1, 0.425781, 0.425781)
+const PASSED: Color = Color(0.14375, 0.5, 0.14375)
+const FAILED: Color = Color(0.7, 0.325781, 0.325781)
 
 func add_result(result) -> void:
 	var script: ScriptTreeItem = scripts[result["path"]]
